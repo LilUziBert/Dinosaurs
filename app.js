@@ -97,7 +97,13 @@
     }
 
     // Generate Tiles for each Dino in Array
-  
+    const tileGenerator = () => {
+        document.getElementById('dino-compare').remove();
+
+        dinosaur.forEach((dinosaurData, index) => {
+            
+        })
+    }
         // Add tiles to DOM
 
     // Remove form from screen
@@ -105,9 +111,7 @@
 
     // On button click, prepare and display infographic
     const submitButton = () => {
-        document.getElementById("btn").addEventListener("click", function() {
-            document.getElementById('dino-compare').remove;
-        })
+        
     }
 
     submitButton();
